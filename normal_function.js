@@ -3,4 +3,4 @@ function funkyFunction(music, isWhiteBoy) {
       console.log('Play: ' +  music);
     }
   }
-  funkyFunction('love',true);
+  funkyFunction('happy',true);
