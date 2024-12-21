@@ -17,8 +17,8 @@ console.log(multiply(4, 5)); // Output: 20
 
 //4, Arrow Function as a Callback
 const numbers = [1, 2, 3, 4];
-
-console.log(numbers); // Output: [1, 4, 9, 16]
+const squared = numbers.map(num => num * num);
+console.log(squared); // Output: [1, 4, 9, 16]
 
 //5, Arrow Function Without this Binding Arrow functions don't have their own this and inherit it from the enclosing scope:
 function Person(name) {
